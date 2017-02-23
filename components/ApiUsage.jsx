@@ -223,6 +223,14 @@ const ApiUsage = (props:tPROPS) => {
                     </div>
                 );
             }
+          else if (this.totalCount('lastThirtyDayUsage' == '0')){
+              return(
+                <div>
+                  <span>Nothing to see here, move along.</span>
+                  <div>{this.totalCount('lastThirtyDayUsage')}</div>
+                </div>)
+
+            }
             return (<span>Loading....</span>)
 
         }
