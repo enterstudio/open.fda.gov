@@ -11,7 +11,9 @@
     "stylus": "gulp stylus",
     "serve": "gatsby develop -p 3000",
     "dev": "gulp stylus & gatsby develop -p 3000",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,12 +35,12 @@
     "copy-webpack-plugin": "^3.0.1",
     "dateformat": "1.0.12",
     "es6-promise": "3.1.2",
-    "gatsby": "0.10.0",
+    "gatsby": "2.0.0",
     "history": "2.0.2",
-    "jquery": "2.2.4",
+    "jquery": "3.0.0",
     "localforage": "^1.4.2",
-    "lodash": "4.7.0",
-    "marked": "0.3.5",
+    "lodash": "4.17.11",
+    "marked": "0.6.2",
     "matchmedia": "0.1.2",
     "react": "15.0.2",
     "react-chartjs": "0.7.3",
@@ -48,7 +50,8 @@
     "react-radio-group": "2.2.0",
     "react-router": "2.0.0",
     "webfontloader": "1.6.24",
-    "webpack": "1.12.14"
+    "webpack": "2.2.0",
+    "snyk": "^1.147.4"
   },
   "devDependencies": {
     "autoprefixer": "~6.3.5",
@@ -75,5 +78,6 @@
     "react-transform-catch-errors": "~1.0.2",
     "react-transform-hmr": "~1.0.3",
     "redbox-react": "~1.2.2"
-  }
+  },
+  "snyk": true
 }
