@@ -44,7 +44,7 @@
     "react-chartjs": "0.7.3",
     "react-document-title": "2.0.1",
     "react-dom": "15.0.2",
-    "react-highlight": "0.8.0",
+    "react-highlight": "0.9.0",
     "react-radio-group": "2.2.0",
     "react-router": "2.0.0",
     "webfontloader": "1.6.24",
